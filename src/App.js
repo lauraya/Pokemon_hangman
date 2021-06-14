@@ -44,6 +44,7 @@ function App() {
   }, [correct, wrong, play]);
 
   function again() {
+    document.location.reload();
     setPlay(true);
     setCorrect([]);
     setWrong([]);
