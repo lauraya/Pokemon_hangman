@@ -47,7 +47,7 @@ function App() {
     setPlay(true);
     setCorrect([]);
     setWrong([]);
-    let pok = pokemon.random("fr").toLowerCase();
+    pok = pokemon.random("fr").toLowerCase();
     pok.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
   return (
