@@ -1,4 +1,4 @@
-# Lien vers la web app
+# Lien vers le jeu
 https://lauraya.github.io/Pokemon_hangman/
 
 
