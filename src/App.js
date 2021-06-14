@@ -8,10 +8,15 @@ import Message, { checkWin } from "./components/Message";
 import Notification from "./components/Notification";
 import { showNotif as show } from "./components/Notification";
 const pokemon = require("pokemon");
-let pok = pokemon.random("fr").toLowerCase();
-pok.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
 function App() {
+  const [pok, setPok] = useState(
+    pokemon
+      .random("fr")
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+  );
   const [play, setPlay] = useState(true);
   const [correct, setCorrect] = useState([]);
   const [wrong, setWrong] = useState([]);
@@ -44,12 +49,16 @@ function App() {
   }, [correct, wrong, play]);
 
   function again() {
-    document.location.reload();
+    setPok(
+      pokemon
+        .random("fr")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+    );
     setPlay(true);
     setCorrect([]);
     setWrong([]);
-    pok = pokemon.random("fr").toLowerCase();
-    pok.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
   return (
     <div>
