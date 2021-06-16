@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Pokemon_hangman/static/css/main.babb593a.chunk.css",
-    "main.js": "/Pokemon_hangman/static/js/main.2c280336.chunk.js",
-    "main.js.map": "/Pokemon_hangman/static/js/main.2c280336.chunk.js.map",
+    "main.css": "/Pokemon_hangman/static/css/main.8b818b02.chunk.css",
+    "main.js": "/Pokemon_hangman/static/js/main.d008b10e.chunk.js",
+    "main.js.map": "/Pokemon_hangman/static/js/main.d008b10e.chunk.js.map",
     "runtime-main.js": "/Pokemon_hangman/static/js/runtime-main.7e88dc71.js",
     "runtime-main.js.map": "/Pokemon_hangman/static/js/runtime-main.7e88dc71.js.map",
     "static/js/2.076ba040.chunk.js": "/Pokemon_hangman/static/js/2.076ba040.chunk.js",
     "static/js/2.076ba040.chunk.js.map": "/Pokemon_hangman/static/js/2.076ba040.chunk.js.map",
     "index.html": "/Pokemon_hangman/index.html",
-    "static/css/main.babb593a.chunk.css.map": "/Pokemon_hangman/static/css/main.babb593a.chunk.css.map",
+    "static/css/main.8b818b02.chunk.css.map": "/Pokemon_hangman/static/css/main.8b818b02.chunk.css.map",
     "static/js/2.076ba040.chunk.js.LICENSE.txt": "/Pokemon_hangman/static/js/2.076ba040.chunk.js.LICENSE.txt",
     "static/media/Pokemon_logo.6e223bd2.png": "/Pokemon_hangman/static/media/Pokemon_logo.6e223bd2.png",
     "static/media/ditto.e636096f.gif": "/Pokemon_hangman/static/media/ditto.e636096f.gif",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.7e88dc71.js",
     "static/js/2.076ba040.chunk.js",
-    "static/css/main.babb593a.chunk.css",
-    "static/js/main.2c280336.chunk.js"
+    "static/css/main.8b818b02.chunk.css",
+    "static/js/main.d008b10e.chunk.js"
   ]
 }
