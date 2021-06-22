@@ -1,3 +1,7 @@
+# Pendu en react
+![image](https://user-images.githubusercontent.com/85686740/122895447-67f2bf00-d348-11eb-82af-ffa0b7c420b8.png)
+
+
 # Lien vers le jeu
 https://lauraya.github.io/Pokemon_hangman/
 
